@@ -17,7 +17,7 @@ PRODUCT_MODEL := realme 5
 PRODUCT_GMS_CLIENTID_BASE := android-realme
 TARGET_VENDOR := realme
 TARGET_VENDOR_PRODUCT_NAME := RMX1911
-PRODUCT_BUILD_PROP_OVERRIDES += PRIVATE_BUILD_DESC="trinket-user 9 PKQ1.190616.001 eng.root.20191129.225506 release-keys"
+PRODUCT_BUILD_PROP_OVERRIDES += PRIVATE_BUILD_DESC="trinket-user 9 PKQ1.190616.001 eng.root.20191224.002823 release-keys"
 
 # Set BUILD_FINGERPRINT variable to be picked up by both system and vendor build.prop
-BUILD_FINGERPRINT := trinket-user-9-PKQ1.190616.001-eng.root.20191129.225506-release-keys
+BUILD_FINGERPRINT := trinket-user-9-PKQ1.190616.001-eng.root.20191224.002823-release-keys
