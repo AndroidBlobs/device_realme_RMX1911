@@ -1251,6 +1251,7 @@ vendor/lib/libchromatix_imx386_qtech_4k_video_cpp.so
 vendor/lib/libchromatix_imx386_qtech_720p_video_cpp.so
 vendor/lib/libchromatix_imx386_qtech_common.so
 vendor/lib/libchromatix_imx386_qtech_common_engineer.so
+vendor/lib/libchromatix_imx386_qtech_common_night.so
 vendor/lib/libchromatix_imx386_qtech_common_panorama.so
 vendor/lib/libchromatix_imx386_qtech_common_special.so
 vendor/lib/libchromatix_imx386_qtech_common_video.so
