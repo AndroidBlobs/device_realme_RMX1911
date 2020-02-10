@@ -176,15 +176,49 @@ fi
 if [ ! -s /mnt/vendor/persist/bdwlan.bin  -o $system_version -gt $persist_version ]; then
     prj_version=`getprop  ro.separate.soft`
     case $prj_version in
-       "19631" | "19634" | "19641" | "19336" | "19637")
-        cp /vendor/etc/wifi/bdwlan_19631.bin /mnt/vendor/persist/bdwlan.bin
+        "19641" | "19647" | "19648" | "19630" | "19642" | "19645")
+        cp /vendor/etc/wifi/bdwlan_19641.bin /mnt/vendor/persist/bdwlan_19641.bin
         ;;
-        "19632" | "19638")
-        cp /vendor/etc/wifi/bdwlan_19632.bin /mnt/vendor/persist/bdwlan.bin
+        "19631")
+        cp /vendor/etc/wifi/bdwlan_19631.bin /mnt/vendor/persist/bdwlan_19631.bin
+        ;;
+        "19632")
+        cp /vendor/etc/wifi/bdwlan_19632.bin /mnt/vendor/persist/bdwlan_19632.bin
+        ;;
+        "19743" | "19675" | "19676")
+        cp /vendor/etc/wifi/bdwlan_19743.bin /mnt/vendor/persist/bdwlan_19743.bin
+        ;;
+        "19744")
+        cp /vendor/etc/wifi/bdwlan_19744.bin /mnt/vendor/persist/bdwlan_19744.bin
+        ;;
+        "19745")
+        cp /vendor/etc/wifi/bdwlan_19745.bin /mnt/vendor/persist/bdwlan_19745.bin
         ;;
     esac
     echo "$system_version" > /mnt/vendor/persist/bin_version_realme
 fi
+
+prj_version=`getprop  ro.separate.soft`
+case $prj_version in
+    "19641" | "19647" | "19648" | "19630" | "19642" | "19645")
+    cp /mnt/vendor/persist/bdwlan_19641.bin /mnt/vendor/persist/bdwlan.bin
+    ;;
+    "19631")
+    cp /mnt/vendor/persist/bdwlan_19631.bin /mnt/vendor/persist/bdwlan.bin
+    ;;
+    "19632")
+    cp /mnt/vendor/persist/bdwlan_19632.bin /mnt/vendor/persist/bdwlan.bin
+    ;;
+    "19743" | "19675" | "19676")
+    cp /mnt/vendor/persist/bdwlan_19743.bin /mnt/vendor/persist/bdwlan.bin
+    ;;
+    "19744")
+    cp /mnt/vendor/persist/bdwlan_19744.bin /mnt/vendor/persist/bdwlan.bin
+    ;;
+    "19745")
+    cp /mnt/vendor/persist/bdwlan_19745.bin /mnt/vendor/persist/bdwlan.bin
+    ;;
+esac
 #endif /* VENDOR_EDIT */
 
 

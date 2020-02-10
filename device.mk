@@ -188,6 +188,10 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/wifi/bdwlan_19329_id1.bin:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/bdwlan_19329_id1.bin \
     $(LOCAL_PATH)/configs/wifi/bdwlan_19631.bin:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/bdwlan_19631.bin \
     $(LOCAL_PATH)/configs/wifi/bdwlan_19632.bin:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/bdwlan_19632.bin \
+    $(LOCAL_PATH)/configs/wifi/bdwlan_19641.bin:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/bdwlan_19641.bin \
+    $(LOCAL_PATH)/configs/wifi/bdwlan_19743.bin:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/bdwlan_19743.bin \
+    $(LOCAL_PATH)/configs/wifi/bdwlan_19744.bin:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/bdwlan_19744.bin \
+    $(LOCAL_PATH)/configs/wifi/bdwlan_19745.bin:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/bdwlan_19745.bin \
     $(LOCAL_PATH)/configs/wifi/bin_version:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/bin_version \
     $(LOCAL_PATH)/configs/wifi/bin_version_realme:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/bin_version_realme \
     $(LOCAL_PATH)/configs/wifi/fstman.ini:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/fstman.ini \

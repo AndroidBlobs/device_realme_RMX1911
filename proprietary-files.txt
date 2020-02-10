@@ -152,6 +152,8 @@ vendor/etc/acdbdata/QRD/QRD_workspaceFile.qwsp
 # Audio-Hardware
 vendor/lib/hw/audio.primary.default.so
 vendor/lib/hw/audio.primary.trinket.so
+vendor/lib/hw/audio.r_submix.default.so
+vendor/lib/hw/audio.usb.default.so
 vendor/lib/libtinycompress_vendor.so
 vendor/lib/soundfx/libqcompostprocbundle.so
 vendor/lib/soundfx/libqcomvisualizer.so
@@ -159,6 +161,8 @@ vendor/lib/soundfx/libqcomvoiceprocessing.so
 vendor/lib/soundfx/libvolumelistener.so
 vendor/lib64/hw/audio.primary.default.so
 vendor/lib64/hw/audio.primary.trinket.so
+vendor/lib64/hw/audio.r_submix.default.so
+vendor/lib64/hw/audio.usb.default.so
 vendor/lib64/libtinycompress_vendor.so
 vendor/lib64/soundfx/libqcompostprocbundle.so
 vendor/lib64/soundfx/libqcomvisualizer.so
@@ -507,6 +511,8 @@ vendor/lib/libchromatix_gc2375h_zsl_preview.so
 vendor/lib/libchromatix_gc2375h_zsl_preview_engineer.so
 vendor/lib/libchromatix_gc2375h_zsl_video.so
 vendor/lib/libchromatix_gc2375h_zsl_video_engineer.so
+vendor/lib/libchromatix_hi846_1080p_sunny_cpp_video.so
+vendor/lib/libchromatix_hi846_720p_sunny_cpp_video.so
 vendor/lib/libchromatix_hi846_a3_default_preview.so
 vendor/lib/libchromatix_hi846_a3_default_video.so
 vendor/lib/libchromatix_hi846_a3_hfr_120.so
@@ -2421,15 +2427,18 @@ vendor/lib/libchromatix_s5k5e9yu05_mono_preview_isp.so
 vendor/lib/libchromatix_s5k5e9yu05_mono_snapshot_isp.so
 vendor/lib/libchromatix_s5k5e9yu05_mono_zsl_preview.so
 vendor/lib/libchromatix_s5k5e9yu05_mono_zsl_video.so
+vendor/lib/libchromatix_s5kgm1_xinli_1080p_liveshot_cpp.so
 vendor/lib/libchromatix_s5kgm1_xinli_1080p_video_cpp.so
 vendor/lib/libchromatix_s5kgm1_xinli_3a_1080p_video.so
 vendor/lib/libchromatix_s5kgm1_xinli_3a_4k_video.so
 vendor/lib/libchromatix_s5kgm1_xinli_3a_4k_video_engineer.so
+vendor/lib/libchromatix_s5kgm1_xinli_3a_default_preview.so
 vendor/lib/libchromatix_s5kgm1_xinli_3a_default_preview_4ksize.so
 vendor/lib/libchromatix_s5kgm1_xinli_3a_default_preview_binning.so
 vendor/lib/libchromatix_s5kgm1_xinli_3a_default_video_4ksize.so
 vendor/lib/libchromatix_s5kgm1_xinli_3a_default_video_binning.so
 vendor/lib/libchromatix_s5kgm1_xinli_3a_hfr120_video.so
+vendor/lib/libchromatix_s5kgm1_xinli_3a_hfr240_video.so
 vendor/lib/libchromatix_s5kgm1_xinli_3a_hfr60_video.so
 vendor/lib/libchromatix_s5kgm1_xinli_3a_hfr90_video.so
 vendor/lib/libchromatix_s5kgm1_xinli_3a_special_16_9_preview.so
@@ -2440,18 +2449,24 @@ vendor/lib/libchromatix_s5kgm1_xinli_3a_zsl_preview_3264x2448.so
 vendor/lib/libchromatix_s5kgm1_xinli_3a_zsl_preview_engineer.so
 vendor/lib/libchromatix_s5kgm1_xinli_3a_zsl_preview_full_portrait.so
 vendor/lib/libchromatix_s5kgm1_xinli_3a_zsl_preview_half_portrait.so
+vendor/lib/libchromatix_s5kgm1_xinli_3a_zsl_preview_hdr.so
 vendor/lib/libchromatix_s5kgm1_xinli_3a_zsl_preview_panorama.so
+vendor/lib/libchromatix_s5kgm1_xinli_3a_zsl_preview_portrait.so
 vendor/lib/libchromatix_s5kgm1_xinli_3a_zsl_preview_professional.so
+vendor/lib/libchromatix_s5kgm1_xinli_3a_zsl_preview_supernight.so
+vendor/lib/libchromatix_s5kgm1_xinli_4k_liveshot_cpp.so
 vendor/lib/libchromatix_s5kgm1_xinli_4k_video_cpp.so
+vendor/lib/libchromatix_s5kgm1_xinli_720p_liveshot_cpp.so
+vendor/lib/libchromatix_s5kgm1_xinli_720p_video_cpp.so
 vendor/lib/libchromatix_s5kgm1_xinli_common.so
+vendor/lib/libchromatix_s5kgm1_xinli_common_binning.so
 vendor/lib/libchromatix_s5kgm1_xinli_common_engineer.so
-vendor/lib/libchromatix_s5kgm1_xinli_common_panorama.so
-vendor/lib/libchromatix_s5kgm1_xinli_common_special.so
+vendor/lib/libchromatix_s5kgm1_xinli_common_supernight.so
 vendor/lib/libchromatix_s5kgm1_xinli_common_video.so
-vendor/lib/libchromatix_s5kgm1_xinli_common_zzhdr.so
 vendor/lib/libchromatix_s5kgm1_xinli_default_video_4ksize_cpp.so
 vendor/lib/libchromatix_s5kgm1_xinli_default_video_binning_cpp.so
 vendor/lib/libchromatix_s5kgm1_xinli_hfr120_video_cpp.so
+vendor/lib/libchromatix_s5kgm1_xinli_hfr240_video_cpp.so
 vendor/lib/libchromatix_s5kgm1_xinli_hfr60_video_cpp.so
 vendor/lib/libchromatix_s5kgm1_xinli_hfr90_video_cpp.so
 vendor/lib/libchromatix_s5kgm1_xinli_isp_1080p_video.so
@@ -2459,6 +2474,7 @@ vendor/lib/libchromatix_s5kgm1_xinli_isp_4k_video.so
 vendor/lib/libchromatix_s5kgm1_xinli_isp_default_binning.so
 vendor/lib/libchromatix_s5kgm1_xinli_isp_default_video_binning.so
 vendor/lib/libchromatix_s5kgm1_xinli_isp_hfr120_video.so
+vendor/lib/libchromatix_s5kgm1_xinli_isp_hfr240_video.so
 vendor/lib/libchromatix_s5kgm1_xinli_isp_hfr60_video.so
 vendor/lib/libchromatix_s5kgm1_xinli_isp_hfr90_video.so
 vendor/lib/libchromatix_s5kgm1_xinli_isp_snapshot_3264x2448.so
@@ -2472,13 +2488,20 @@ vendor/lib/libchromatix_s5kgm1_xinli_isp_zsl_preview_professional_17021.so
 vendor/lib/libchromatix_s5kgm1_xinli_isp_zsl_snapshot.so
 vendor/lib/libchromatix_s5kgm1_xinli_isp_zsl_snapshot_17021.so
 vendor/lib/libchromatix_s5kgm1_xinli_isp_zsl_snapshot_full_portrait.so
+vendor/lib/libchromatix_s5kgm1_xinli_isp_zsl_snapshot_hdr.so
 vendor/lib/libchromatix_s5kgm1_xinli_isp_zsl_snapshot_panorama.so
+vendor/lib/libchromatix_s5kgm1_xinli_isp_zsl_snapshot_portrait.so
 vendor/lib/libchromatix_s5kgm1_xinli_isp_zsl_snapshot_professional.so
 vendor/lib/libchromatix_s5kgm1_xinli_isp_zsl_snapshot_professional_17021.so
+vendor/lib/libchromatix_s5kgm1_xinli_isp_zsl_snapshot_supernight.so
+vendor/lib/libchromatix_s5kgm1_xinli_other_liveshot_cpp.so
 vendor/lib/libchromatix_s5kgm1_xinli_postproc.so
+vendor/lib/libchromatix_s5kgm1_xinli_preview_1080p_16_9_cpp.so
 vendor/lib/libchromatix_s5kgm1_xinli_preview_1080p_cpp.so
+vendor/lib/libchromatix_s5kgm1_xinli_preview_420p_16_9_cpp.so
 vendor/lib/libchromatix_s5kgm1_xinli_preview_420p_cpp.so
 vendor/lib/libchromatix_s5kgm1_xinli_preview_4ksize_cpp.so
+vendor/lib/libchromatix_s5kgm1_xinli_preview_720p_16_9_cpp.so
 vendor/lib/libchromatix_s5kgm1_xinli_preview_720p_cpp.so
 vendor/lib/libchromatix_s5kgm1_xinli_preview_binning_cpp.so
 vendor/lib/libchromatix_s5kgm1_xinli_preview_cpp_engineer.so
@@ -2492,15 +2515,23 @@ vendor/lib/libchromatix_s5kgm1_xinli_zsl_custom_3264x2448_cpp.so
 vendor/lib/libchromatix_s5kgm1_xinli_zsl_custom_cpp.so
 vendor/lib/libchromatix_s5kgm1_xinli_zsl_custom_cpp_full_portrait.so
 vendor/lib/libchromatix_s5kgm1_xinli_zsl_custom_cpp_half_portrait.so
+vendor/lib/libchromatix_s5kgm1_xinli_zsl_custom_cpp_portrait.so
 vendor/lib/libchromatix_s5kgm1_xinli_zsl_face_cpp.so
 vendor/lib/libchromatix_s5kgm1_xinli_zsl_face_cpp_full_portrait.so
 vendor/lib/libchromatix_s5kgm1_xinli_zsl_face_cpp_half_portrait.so
+vendor/lib/libchromatix_s5kgm1_xinli_zsl_face_cpp_portrait.so
+vendor/lib/libchromatix_s5kgm1_xinli_zsl_face_cpp_supernight.so
 vendor/lib/libchromatix_s5kgm1_xinli_zsl_flash_cpp.so
 vendor/lib/libchromatix_s5kgm1_xinli_zsl_less_cpp.so
+vendor/lib/libchromatix_s5kgm1_xinli_zsl_multiframe_cpp.so
+vendor/lib/libchromatix_s5kgm1_xinli_zsl_multiframe_face_cpp.so
+vendor/lib/libchromatix_s5kgm1_xinli_zsl_multiframe_face_cpp_portrait.so
 vendor/lib/libchromatix_s5kgm1_xinli_zsl_preview_3264x2448_cpp.so
 vendor/lib/libchromatix_s5kgm1_xinli_zsl_preview_cpp.so
 vendor/lib/libchromatix_s5kgm1_xinli_zsl_preview_cpp_full_portrait.so
 vendor/lib/libchromatix_s5kgm1_xinli_zsl_preview_cpp_panorama.so
+vendor/lib/libchromatix_s5kgm1_xinli_zsl_preview_cpp_portrait.so
+vendor/lib/libchromatix_s5kgm1_xinli_zsl_preview_cpp_supernight.so
 vendor/lib/libchromatix_s5kgm1_xinli_zsl_preview_professional_cpp.so
 vendor/lib/libchromatix_s5kgm1_xinli_zsl_snapshot_3264x2448_cpp.so
 vendor/lib/libchromatix_s5kgm1_xinli_zsl_snapshot_cpp.so
@@ -2508,7 +2539,11 @@ vendor/lib/libchromatix_s5kgm1_xinli_zsl_snapshot_cpp_full_portrait.so
 vendor/lib/libchromatix_s5kgm1_xinli_zsl_snapshot_cpp_half_portrait.so
 vendor/lib/libchromatix_s5kgm1_xinli_zsl_snapshot_cpp_hdr.so
 vendor/lib/libchromatix_s5kgm1_xinli_zsl_snapshot_cpp_hdr_face.so
+vendor/lib/libchromatix_s5kgm1_xinli_zsl_snapshot_cpp_low_hdr.so
+vendor/lib/libchromatix_s5kgm1_xinli_zsl_snapshot_cpp_low_hdr_face.so
 vendor/lib/libchromatix_s5kgm1_xinli_zsl_snapshot_cpp_panorama.so
+vendor/lib/libchromatix_s5kgm1_xinli_zsl_snapshot_cpp_portrait.so
+vendor/lib/libchromatix_s5kgm1_xinli_zsl_snapshot_cpp_supernight.so
 vendor/lib/libchromatix_s5kgm1_xinli_zsl_snapshot_professional_cpp.so
 vendor/lib/libchromatix_s5kgm1_xinli_zsl_snapshot_professional_cpp_17021.so
 vendor/lib/libchromatix_s5kgm1_xinli_zsl_zoom_cpp.so
@@ -2603,8 +2638,10 @@ vendor/etc/camera/s5k3p8sp_chromatix.xml
 vendor/etc/camera/s5k4h7_chromatix.xml
 vendor/etc/camera/s5k5e9yu05_mono_chromatix.xml
 vendor/etc/camera/s5kgm1_xinli_chromatix.xml
+vendor/etc/camera/vidhance_calibration_hi846_sunny
 vendor/etc/camera/vidhance_calibration_imx386_qtech
 vendor/etc/camera/vidhance_calibration_s5k3l6_ofilm
+vendor/etc/camera/vidhance_calibration_s5kgm1_xinli
 
 # Camera-firmware
 vendor/firmware/cpp_firmware_v1_10_0.fw
@@ -4083,14 +4120,18 @@ vendor/lib/vendor.qti.hardware.tui_comm@1.0.so
 vendor/lib64/vendor.qti.hardware.tui_comm@1.0.so
 
 # Thermal
+vendor/bin/hw/android.hardware.thermal@1.0-service
 vendor/bin/thermal-engine
+vendor/etc/init/android.hardware.thermal@1.0-service.rc
 vendor/etc/thermal-engine.conf
+vendor/lib/hw/android.hardware.thermal@1.0-impl.so
+vendor/lib/hw/thermal.trinket.so
 -vendor/lib/libthermalclient.so
+vendor/lib64/hw/android.hardware.thermal@1.0-impl.so
+vendor/lib64/hw/thermal.trinket.so
 -vendor/lib64/libthermalclient.so
 
 # Thermal-Hardware
-vendor/lib/hw/thermal.trinket.so
-vendor/lib64/hw/thermal.trinket.so
 
 # Time
 -vendor/app/TimeService/TimeService.apk
